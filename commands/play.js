@@ -96,7 +96,7 @@ module.exports = {
             const queue = message.client.queue.get(message.guild.id);
             if (!song) {
                 sendError(
-                    "Thank you for using my code! [GitHub](https://github.com/navaneethkm004/Discord-24x7-Radio-Bot)",
+                    "Thank you!",
                     message.channel
                 );
                 message.client.queue.delete(message.guild.id);
